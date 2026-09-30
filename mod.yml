@@ -1,0 +1,158 @@
+title: 'Dream Sword over Wishing Star'
+originalAuthor: 'Zyga'
+description: |-
+  Replaces the following Keyblades:
+  
+  Dream Sword -> Wishing Star [match length]
+game: kh1
+
+assets:
+  # Dream Sword -> Wishing Star
+  - method: copy
+    name: raw/xw_ex_5150.wpn
+    package: kh1_first
+    source:
+      - name: files/raw/sora_dream_sword.wpn
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011224.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011304.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011225.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011305.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011226.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011306.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011227.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011307.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011228.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011308.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011229.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011309.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011230.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011310.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011231.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011311.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011232.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011312.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011233.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011313.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011234.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011314.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011235.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011315.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011236.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011316.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011237.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011317.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011238.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011318.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011239.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011319.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011240.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011320.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011241.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011321.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011245.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011325.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011246.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011326.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011250.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011330.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011251.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011331.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011252.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011332.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011255.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011335.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011256.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011336.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011257.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011337.win32.scd
+
+  - method: copy
+    name: remastered/xw_ex_5150.se/se011258.win32.scd
+    source:
+      - name: files/sounds/sora_dream_sword/se011338.win32.scd
+
+  # Combined gameplay-data edits
+  - method: copy
+    name: btltbl.bin
+    package: kh1_first
+    source:
+      - name: files/btltbl.bin
+
